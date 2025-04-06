@@ -1,0 +1,149 @@
+{
+    "home": "Home",
+    "product": {
+        "hero": {
+            "title": "Your finances under full control",
+            "subtitle": "Finance 44 is a secure personal budget management app"
+        },
+        "features": {
+            "security": {
+                "title": "Security",
+                "items": ["Locally stored data", "You decide where your financial data goes"]
+            },
+            "plugins": {
+                "title": "Multi-platform availability",
+                "description": "Finance 44 app is available for Android and Windows"
+            },
+            "openness": {
+                "title": "Open standards",
+                "items": ["CSV data export", "Transparent financial reporting"]
+            },
+            "keyFeatures": {
+                "title": "Key Features",
+                "budgetManagement": {
+                    "title": "Budget Management",
+                    "description": "Plan and track your monthly budgets"
+                },
+                "financialAnalysis": {
+                    "title": "Financial Analysis",
+                    "description": "Visualize your expenses and savings"
+                },
+                "categories": {
+                    "title": "Categories",
+                    "description": "Categorize expenses and income"
+                },
+                "dataExport": {
+                    "title": "Data Export",
+                    "description": "Export your data to CSV"
+                }
+            }
+        },
+        "download": "Download",
+        "comingSoon": "Windows version coming soon"
+    },
+    "privacy-policy": "Privacy Policy",
+    "privacy": {
+        "title": "Finance 44 Privacy Policy",
+        "subtitle": "Your financial data, your control",
+        "introduction": {
+            "title": "1. Introduction",
+            "content": "Finance 44 is a personal finance management application that respects user privacy. This policy explains what data we collect and how we use it."
+        },
+        "policy": {
+            "title": "PRIVACY POLICY",
+            "appName": "Finance 44",
+            "lastUpdated": "Last updated: {{date}}",
+            "introduction": {
+                "title": "1. INTRODUCTION",
+                "content": "Welcome to Finance 44 application (\"App\"), a personal finance management tool. This privacy policy describes how we collect, use, store, and protect your personal data when using our App.",
+                "important": "IMPORTANT: All data entered into the App is stored exclusively on your device. The App does not transmit data to any external servers or share it with third parties."
+            },
+            "dataController": {
+                "title": "2. DATA CONTROLLER",
+                "content": "The data controller is Finance 44, based in Poland."
+            },
+            "dataTypes": {
+                "title": "3. TYPES OF DATA COLLECTED",
+                "intro": "Our App collects the following types of data:",
+                "userEntered": "User-entered data:",
+                "items": [
+                    "Financial account information (name, balance, currency)",
+                    "Transaction data (amount, category, date, time, description)",
+                    "Income and expense category information",
+                    "Recurring payment data",
+                    "Transaction labels",
+                    "Transaction-related images (if added)"
+                ]
+            },
+            "processingPurposes": {
+                "title": "4. DATA PROCESSING PURPOSES",
+                "intro": "We process your data for the following purposes:",
+                "items": [
+                    "Enabling personal finance management features",
+                    "Storing information about your transactions and financial accounts",
+                    "Categorizing and analyzing expenses and income",
+                    "Managing recurring payments",
+                    "Providing data export functionality"
+                ]
+            },
+            "legalBasis": {
+                "title": "5. LEGAL BASIS FOR PROCESSING",
+                "intro": "The legal basis for processing your data is:",
+                "items": [
+                    "Performance of a contract (providing services within the App)",
+                    "Your consent (for optional features)",
+                    "Legitimate interest of the controller (improving App functionality)"
+                ]
+            },
+            "retention": {
+                "title": "6. DATA RETENTION PERIOD",
+                "intro": "Data is stored until:",
+                "items": [
+                    "Account deletion by the user",
+                    "App uninstallation",
+                    "Execution of the \"Delete all data\" operation available in the App settings"
+                ]
+            },
+            "storage": {
+                "title": "7. DATA STORAGE LOCATION",
+                "content": "All data is stored locally on your device in an SQLite database file (finance44.db). The App does not create cloud backups or synchronize data with remote servers. Data is not transmitted to remote servers or shared with third parties unless you decide to export the data yourself."
+            },
+            "rights": {
+                "title": "8. YOUR RIGHTS",
+                "intro": "As a user, you have the right to:",
+                "items": [
+                    "Access your data (through the App interface)",
+                    "Correct data (edit data in the App)",
+                    "Delete data (using the \"Delete all data\" function in settings)",
+                    "Export data (using the \"Export data\" function in settings)"
+                ]
+            },
+            "security": {
+                "title": "9. DATA SECURITY",
+                "intro": "We apply appropriate technical measures to protect your data, including:",
+                "items": [
+                    "Storing all data exclusively on your device",
+                    "No automatic data transmission to external servers",
+                    "No user behavior tracking",
+                    "Using secure database access mechanisms"
+                ]
+            },
+            "changes": {
+                "title": "10. CHANGES TO THE PRIVACY POLICY",
+                "content": "We reserve the right to make changes to the Privacy Policy. We will inform you of any changes through App updates or notifications in the App."
+            },
+            "contact": {
+                "title": "11. CONTACT",
+                "content": "For questions regarding the Privacy Policy, please contact the Finance 44 team."
+            },
+            "confirmation": "By using the App, you confirm that you have read this Privacy Policy and accept its terms."
+        }
+    },
+    "footer": {
+        "copyright": "© {{year}} Finance 44. All rights reserved."
+    },
+    "notfound": {
+        "title": "Page Not Found",
+        "description": "The page you're looking for doesn't exist or has been moved."
+    }
+}

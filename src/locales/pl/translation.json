@@ -1,0 +1,149 @@
+{
+    "home": "Strona główna",
+    "product": {
+        "hero": {
+            "title": "Twoje finanse pod pełną kontrolą",
+            "subtitle": "Finance 44 to bezpieczna aplikacja do zarządzania budżetem osobistym"
+        },
+        "features": {
+            "security": {
+                "title": "Bezpieczeństwo",
+                "items": ["Dane przechowywane lokalnie", "Ty decydujesz gdzie lądują Twoje dane finansowe"]
+            },
+            "plugins": {
+                "title": "Dostępność na wielu platformach",
+                "description": "Aplikacja Finance 44 dostępna jest pod Androidem i Windowsem"
+            },
+            "openness": {
+                "title": "Otwarte standardy",
+                "items": ["Eksport danych do CSV", "Przejrzyste raportowanie finansów"]
+            },
+            "keyFeatures": {
+                "title": "Kluczowe funkcje",
+                "budgetManagement": {
+                    "title": "Zarządzanie budżetem",
+                    "description": "Planuj i śledź swoje miesięczne budżety"
+                },
+                "financialAnalysis": {
+                    "title": "Analiza finansów",
+                    "description": "Wizualizacje wydatków i oszczędności"
+                },
+                "categories": {
+                    "title": "Kategorie",
+                    "description": "Kategoryzuj wydatki i przychody"
+                },
+                "dataExport": {
+                    "title": "Eksport danych",
+                    "description": "Eksportuj dane do CSV"
+                }
+            }
+        },
+        "download": "Pobierz",
+        "comingSoon": "Wersja na system Windows dostępna wkrótce"
+    },
+    "privacy-policy": "Polityka Prywatności",
+    "privacy": {
+        "title": "Polityka Prywatności Finance 44",
+        "subtitle": "Twoje dane finansowe, Twoja kontrola",
+        "introduction": {
+            "title": "1. Wprowadzenie",
+            "content": "Finance 44 to aplikacja do zarządzania finansami osobistymi, która szanuje prywatność użytkowników. Niniejsza polityka wyjaśnia jakie dane zbieramy i jak je wykorzystujemy."
+        },
+        "policy": {
+            "title": "POLITYKA PRYWATNOŚCI",
+            "appName": "Finance 44",
+            "lastUpdated": "Ostatnia aktualizacja: {{date}}",
+            "introduction": {
+                "title": "1. WPROWADZENIE",
+                "content": "Witamy w aplikacji Finance 44 (\"Aplikacja\"), narzędziu do zarządzania finansami osobistymi. Polityka prywatności opisuje, w jaki sposób zbieramy, używamy, przechowujemy i chronimy Twoje dane osobowe podczas korzystania z naszej Aplikacji.",
+                "important": "WAŻNE: Wszystkie dane wprowadzane do Aplikacji są przechowywane wyłącznie na Twoim urządzeniu. Aplikacja nie przesyła danych do żadnych zewnętrznych serwerów ani nie udostępnia ich podmiotom trzecim."
+            },
+            "dataController": {
+                "title": "2. ADMINISTRATOR DANYCH",
+                "content": "Administratorem danych jest Finance 44 z siedzibą w Polsce."
+            },
+            "dataTypes": {
+                "title": "3. RODZAJE ZBIERANYCH DANYCH",
+                "intro": "Nasza Aplikacja zbiera następujące rodzaje danych:",
+                "userEntered": "Dane wprowadzane przez użytkownika:",
+                "items": [
+                    "Informacje o kontach finansowych (nazwa, saldo, waluta)",
+                    "Dane o transakcjach (kwota, kategoria, data, czas, opis)",
+                    "Informacje o kategoriach wydatków i dochodów",
+                    "Dane o płatnościach cyklicznych",
+                    "Etykiety transakcji",
+                    "Zdjęcia związane z transakcjami (jeśli dodane)"
+                ]
+            },
+            "processingPurposes": {
+                "title": "4. CELE PRZETWARZANIA DANYCH",
+                "intro": "Przetwarzamy Twoje dane w następujących celach:",
+                "items": [
+                    "Umożliwienie korzystania z funkcji zarządzania finansami osobistymi",
+                    "Zapisywanie informacji o Twoich transakcjach i kontach finansowych",
+                    "Kategoryzacja i analiza wydatków i dochodów",
+                    "Zarządzanie płatnościami cyklicznymi",
+                    "Zapewnienie funkcji eksportu danych"
+                ]
+            },
+            "legalBasis": {
+                "title": "5. PODSTAWA PRAWNA PRZETWARZANIA",
+                "intro": "Podstawą prawną przetwarzania Twoich danych jest:",
+                "items": [
+                    "Wykonanie umowy (świadczenie usług w ramach Aplikacji)",
+                    "Twoja zgoda (w przypadku opcjonalnych funkcji)",
+                    "Uzasadniony interes administratora (poprawa funkcjonalności Aplikacji)"
+                ]
+            },
+            "retention": {
+                "title": "6. OKRES PRZECHOWYWANIA DANYCH",
+                "intro": "Dane są przechowywane do momentu:",
+                "items": [
+                    "Usunięcia konta przez użytkownika",
+                    "Usunięcia Aplikacji",
+                    "Wykonania operacji \"Usuń wszystkie dane\" dostępnej w ustawieniach Aplikacji"
+                ]
+            },
+            "storage": {
+                "title": "7. MIEJSCE PRZECHOWYWANIA DANYCH",
+                "content": "Wszystkie dane są przechowywane lokalnie na Twoim urządzeniu w pliku bazy danych SQLite (finance44.db). Aplikacja nie tworzy kopii zapasowych w chmurze ani nie synchronizuje danych z serwerami zdalnymi. Dane nie są przesyłane na zdalne serwery ani udostępniane osobom trzecim, chyba że samodzielnie zdecydujesz się na eksport danych."
+            },
+            "rights": {
+                "title": "8. TWOJE PRAWA",
+                "intro": "Jako użytkownik masz prawo do:",
+                "items": [
+                    "Dostępu do swoich danych (poprzez interfejs Aplikacji)",
+                    "Poprawiania danych (edycja danych w Aplikacji)",
+                    "Usunięcia danych (funkcja \"Usuń wszystkie dane\" w ustawieniach)",
+                    "Eksportu danych (funkcja \"Eksportuj dane\" w ustawieniach)"
+                ]
+            },
+            "security": {
+                "title": "9. BEZPIECZEŃSTWO DANYCH",
+                "intro": "Stosujemy odpowiednie środki techniczne, aby chronić Twoje dane, w tym:",
+                "items": [
+                    "Przechowywanie wszystkich danych wyłącznie lokalnie na Twoim urządzeniu",
+                    "Brak automatycznego przesyłania danych do zewnętrznych serwerów",
+                    "Brak jakiegokolwiek śledzenia zachowań użytkownika",
+                    "Korzystanie z bezpiecznych mechanizmów dostępu do bazy danych"
+                ]
+            },
+            "changes": {
+                "title": "10. ZMIANY W POLITYCE PRYWATNOŚCI",
+                "content": "Zastrzegamy sobie prawo do wprowadzania zmian w Polityce Prywatności. O wszelkich zmianach będziemy informować poprzez aktualizację Aplikacji lub powiadomienie w Aplikacji."
+            },
+            "contact": {
+                "title": "11. KONTAKT",
+                "content": "W przypadku pytań dotyczących Polityki Prywatności, prosimy o kontakt z zespołem Finance 44."
+            },
+            "confirmation": "Korzystając z Aplikacji, potwierdzasz, że zapoznałeś się z niniejszą Polityką Prywatności i akceptujesz jej warunki."
+        }
+    },
+    "footer": {
+        "copyright": "© {{year}} Finance 44. Wszelkie prawa zastrzeżone."
+    },
+    "notfound": {
+        "title": "Strona nie znaleziona",
+        "description": "Strona której szukasz nie istnieje lub została przeniesiona."
+    }
+}
