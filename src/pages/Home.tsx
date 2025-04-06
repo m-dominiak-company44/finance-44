@@ -19,7 +19,7 @@ export default function Product() {
                             <Download className="h-4 w-4" />
                             {t('product.download')}
                         </Button>
-                        <p className="text-sm text-muted-foreground">* {t('product.comingSoon')}</p>
+                        <p className="text-sm text-muted-foreground">** {t('product.comingSoon')}</p>
                     </div>
                 </div>
             </section>
