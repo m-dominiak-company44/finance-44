@@ -140,10 +140,11 @@
                         "p": "**Android backup.** If Google backup is turned on in your phone settings, Android may save the App's database and settings (without photos) to your Google account, and also the photos when you move your data to a new phone. This backup is made and stored by Google; you turn it on and off in the system settings. The Developer has no access to it."
                     },
                     {
-                        "p": "**Google Drive backup (optional).** This feature is off by default. When you turn it on in the App settings and agree in the Google window, the App regularly saves a ZIP file with all your data, including photos, to the “Finance44” folder on your Google Drive:"
+                        "p": "**Google Drive backup (optional).** This feature is off by default. When you turn it on in the App settings and agree in the Google window, the App regularly saves a ZIP file with your data to the “Finance44” folder on your Google Drive:"
                     },
                     {
                         "list": [
+                            "Photos are included only if you turn on “Include photos” (off by default). Without it, the backup contains all other data, but no photos.",
                             "The App can access only the files it created on your Drive (the “drive.file” permission). It cannot see any other files.",
                             "Files go straight from your device to your Drive. They don't pass through any server of the Developer, and the Developer has no access to them.",
                             "Only the number of latest backups you choose stays on Drive – the App deletes older ones.",
@@ -373,6 +374,7 @@
                         "list": [
                             "You are responsible for backups. You can use export to a ZIP file, the Android backup or the Google Drive backup.",
                             "A Google Drive backup is made only when there is an internet connection, free space on Drive and the App has access to your account. You can check the last backup in the App settings.",
+                            "A Google Drive backup includes photos only if you turn on “Include photos”. After restoring a backup without photos, your transactions will have no photos – to keep them, turn this option on or use export to a ZIP file, which always includes photos.",
                             "Importing a file replaces all data in the App. Export your current data first if you want to keep it.",
                             "“Delete all data” cannot be undone."
                         ]

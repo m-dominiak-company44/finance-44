@@ -140,10 +140,11 @@
                         "p": "**Kopia zapasowa Androida.** Jeśli w ustawieniach telefonu masz włączoną kopię zapasową Google, system Android może zapisywać na Twoim koncie Google bazę danych i ustawienia Aplikacji (bez zdjęć), a przy przenoszeniu danych na nowy telefon – także zdjęcia. Tę kopię tworzy i przechowuje Google; włączasz ją i wyłączasz w ustawieniach systemu. Twórca nie ma do niej dostępu."
                     },
                     {
-                        "p": "**Kopia na Dysku Google (opcjonalna).** Funkcja jest domyślnie wyłączona. Gdy włączysz ją w ustawieniach Aplikacji i wyrazisz zgodę w oknie Google, Aplikacja będzie regularnie zapisywać plik ZIP ze wszystkimi danymi, łącznie ze zdjęciami, w folderze „Finance44” na Twoim Dysku Google:"
+                        "p": "**Kopia na Dysku Google (opcjonalna).** Funkcja jest domyślnie wyłączona. Gdy włączysz ją w ustawieniach Aplikacji i wyrazisz zgodę w oknie Google, Aplikacja będzie regularnie zapisywać plik ZIP z Twoimi danymi w folderze „Finance44” na Twoim Dysku Google:"
                     },
                     {
                         "list": [
+                            "Zdjęcia trafiają do kopii tylko wtedy, gdy włączysz opcję „Kopiuj zdjęcia” (domyślnie jest wyłączona). Bez niej kopia zawiera wszystkie pozostałe dane, ale bez zdjęć.",
                             "Aplikacja ma dostęp tylko do plików, które sama utworzyła na Twoim Dysku (uprawnienie „drive.file”). Nie widzi pozostałych plików.",
                             "Pliki trafiają bezpośrednio z Twojego urządzenia na Twój Dysk. Nie przechodzą przez żaden serwer Twórcy, a Twórca nie ma do nich dostępu.",
                             "Na Dysku zostaje tylko wybrana przez Ciebie liczba najnowszych kopii – starsze Aplikacja usuwa.",
@@ -373,6 +374,7 @@
                         "list": [
                             "Za kopię zapasową odpowiadasz Ty. Możesz skorzystać z eksportu do pliku ZIP, kopii zapasowej Androida lub kopii na Dysku Google.",
                             "Kopia na Dysku Google powstaje tylko wtedy, gdy jest połączenie z internetem, na Dysku jest wolne miejsce, a Aplikacja ma dostęp do konta. Stan ostatniej kopii sprawdzisz w ustawieniach Aplikacji.",
+                            "Kopia na Dysku Google zawiera zdjęcia tylko wtedy, gdy włączysz opcję „Kopiuj zdjęcia”. Po przywróceniu kopii bez zdjęć transakcje nie będą miały zdjęć – jeśli chcesz je zachować, włącz tę opcję albo korzystaj z eksportu do pliku ZIP, który zawsze zawiera zdjęcia.",
                             "Import pliku zastępuje wszystkie dane w Aplikacji. Jeśli chcesz zachować obecne dane, najpierw je wyeksportuj.",
                             "„Usuń wszystkie dane” jest nieodwracalne."
                         ]
