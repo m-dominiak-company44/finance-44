@@ -10,8 +10,8 @@ import prettierConfig from 'eslint-config-prettier';
 export default tseslint.config(
     { ignores: ['dist'] },
     {
-        extends: [js.configs.recommended, ...tseslint.configs.recommended, pluginTailwindcss.configs.recommended, prettierConfig],
-        files: ['./src/**/*.{ts,tsx}'],
+        extends: [js.configs.recommended, ...tseslint.configs.recommended, ...pluginTailwindcss.configs['flat/recommended'], prettierConfig],
+        files: ['src/**/*.{ts,tsx}'],
         languageOptions: {
             ecmaVersion: 2022,
             globals: globals.browser,
@@ -28,18 +28,8 @@ export default tseslint.config(
         rules: {
             ...reactHooks.configs.recommended.rules,
             'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
-            'prettier/prettier': [
-                'error',
-                {
-                    useTabs: false,
-                    printWidth: 100,
-                    tabWidth: 2,
-                    singleQuote: true,
-                    trailingComma: 'all',
-                    bracketSameLine: false,
-                    endOfLine: 'auto',
-                },
-            ],
+            // Formatting options come from .prettierrc
+            'prettier/prettier': ['error', { endOfLine: 'auto' }],
             'tailwindcss/classnames-order': [
                 'error',
                 {

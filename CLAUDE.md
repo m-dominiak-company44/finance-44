@@ -17,9 +17,7 @@ npm run format     # prettier --write .
 npm run deploy     # builds, then pushes dist/ to the gh-pages branch
 ```
 
-Known tooling quirks:
-- **ESLint currently lints nothing.** `eslint.config.js` uses `files: ['./src/**/*.{ts,tsx}']`; flat config doesn't match the leading `./`, so every file is reported as "ignored". Fixing it to `src/**/*.{ts,tsx}` will surface errors, because the `prettier/prettier` rule there hardcodes `tabWidth: 2, printWidth: 100`, conflicting with `.prettierrc` (`tabWidth: 4, printWidth: 140`), which is what the code is actually formatted with.
-- `vite.config.js` is the emitted output of `vite.config.ts` (via `tsconfig.node.json`, which is `composite` without `noEmit`), so `tsc -b` rewrites it. Edit `vite.config.ts`; keep the two in sync.
+Formatting is defined only in `.prettierrc` (4-space indent, 140 cols, single quotes, semicolons); ESLint runs it via `prettier/prettier` and also enforces Tailwind class order/shorthands (`size-*` instead of `h-* w-*`), so `npm run lint:fix` is the quickest way to clean up. `tsconfig.node.json` (for `vite.config.ts`) is composite and emits into `node_modules/.tmp`, so don't add a `vite.config.js` — Vite would load it ahead of the `.ts` file.
 
 ## Architecture
 
