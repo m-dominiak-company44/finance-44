@@ -8,7 +8,10 @@
         "features": {
             "security": {
                 "title": "Security",
-                "items": ["Locally stored data", "You decide where your financial data goes"]
+                "items": [
+                    "Locally stored data",
+                    "You decide where your financial data goes"
+                ]
             },
             "plugins": {
                 "title": "Multi-platform availability",
@@ -16,7 +19,10 @@
             },
             "openness": {
                 "title": "Open standards",
-                "items": ["CSV data export", "Transparent financial reporting"]
+                "items": [
+                    "CSV data export",
+                    "Transparent financial reporting"
+                ]
             },
             "keyFeatures": {
                 "title": "Key Features",
@@ -42,105 +48,422 @@
         "comingSoon": "Windows version coming soon"
     },
     "privacy-policy": "Privacy Policy",
+    "terms-of-use": "Terms of Use",
+    "legal": {
+        "kicker": "Legal",
+        "updated": "Last updated:",
+        "summary": "Key points",
+        "toc": "Contents",
+        "related": "See also",
+        "backToTop": "Back to top"
+    },
     "privacy": {
-        "title": "Finance 44 Privacy Policy",
-        "subtitle": "Your financial data, your control",
-        "introduction": {
-            "title": "1. Introduction",
-            "content": "Finance 44 is a personal finance management application that respects user privacy. This policy explains what data we collect and how we use it."
-        },
-        "policy": {
-            "title": "PRIVACY POLICY",
-            "appName": "Finance 44",
-            "lastUpdated": "Last updated: {{date}}",
-            "introduction": {
-                "title": "1. INTRODUCTION",
-                "content": "Welcome to Finance 44 application (\"App\"), a personal finance management tool. This privacy policy describes how we collect, use, store, and protect your personal data when using our App.",
-                "important": "IMPORTANT: All data entered into the App is stored exclusively on your device. The App does not transmit data to any external servers or share it with third parties."
+        "title": "Privacy Policy",
+        "subtitle": "How the Finance 44 app handles your data. In short: it stays on your device and goes to the cloud only if you decide so.",
+        "relatedDescription": "What data the App saves, where it is stored and how to delete it.",
+        "highlights": [
+            {
+                "title": "Data on your device",
+                "text": "Accounts, transactions and photos are saved on your phone. We have no server they could be sent to."
             },
-            "dataController": {
-                "title": "2. DATA CONTROLLER",
-                "content": "The data controller is Finance 44, based in Poland."
+            {
+                "title": "No ads, no tracking",
+                "text": "The App has no ads, no analytics and no tracking tools. You don't create an account with us."
             },
-            "dataTypes": {
-                "title": "3. TYPES OF DATA COLLECTED",
-                "intro": "Our App collects the following types of data:",
-                "userEntered": "User-entered data:",
-                "items": [
-                    "Financial account information (name, balance, currency)",
-                    "Transaction data (amount, category, date, time, description)",
-                    "Income and expense category information",
-                    "Recurring payment data",
-                    "Transaction labels",
-                    "Transaction-related images (if added)"
+            {
+                "title": "Cloud only if you want it",
+                "text": "The Google Drive backup is off until you turn it on, and it goes to your own Drive."
+            },
+            {
+                "title": "Full control",
+                "text": "Export or delete all your data at any time in the App settings."
+            }
+        ],
+        "sections": [
+            {
+                "id": "intro",
+                "title": "What this policy covers",
+                "content": [
+                    {
+                        "p": "This privacy policy explains what data the Finance 44 app (the “App”) – a personal budgeting tool – processes, where it is stored and what choices you have. It applies to the Android App available on Google Play and to this website."
+                    },
+                    {
+                        "p": "The App is made and provided by Finance 44 (“we”, the “Developer”)."
+                    },
+                    {
+                        "note": "**Most important:** the Developer does not receive the data you enter into the App. We have no access to it, so we cannot read, share or sell it."
+                    }
                 ]
             },
-            "processingPurposes": {
-                "title": "4. DATA PROCESSING PURPOSES",
-                "intro": "We process your data for the following purposes:",
-                "items": [
-                    "Enabling personal finance management features",
-                    "Storing information about your transactions and financial accounts",
-                    "Categorizing and analyzing expenses and income",
-                    "Managing recurring payments",
-                    "Providing data export functionality"
+            {
+                "id": "data",
+                "title": "What data the App saves",
+                "content": [
+                    {
+                        "p": "The App saves only the information you enter yourself:"
+                    },
+                    {
+                        "list": [
+                            "user profiles – the name you type in (it doesn't have to be your real name; the App never asks for an e-mail address or phone number),",
+                            "accounts: name, balance, currency, color and icon,",
+                            "transactions: amount, date and time, category, account, comment and labels,",
+                            "expense and income categories and recurring payments,",
+                            "photos attached to transactions (e.g. receipts) – only the ones you pick,",
+                            "settings: theme, language, preferred currency, first day of the week and backup settings."
+                        ]
+                    },
+                    {
+                        "p": "If you turn on the Google Drive backup, the App also saves the e-mail address of the chosen Google account and the date, size and result of the last backup, so it can show you its status."
+                    },
+                    {
+                        "p": "The App does not collect your location, contacts, advertising IDs, usage history or device information. It does not connect to your bank."
+                    }
                 ]
             },
-            "legalBasis": {
-                "title": "5. LEGAL BASIS FOR PROCESSING",
-                "intro": "The legal basis for processing your data is:",
-                "items": [
-                    "Performance of a contract (providing services within the App)",
-                    "Your consent (for optional features)",
-                    "Legitimate interest of the controller (improving App functionality)"
+            {
+                "id": "storage",
+                "title": "Where the data is stored",
+                "content": [
+                    {
+                        "p": "All data is saved in the App's private storage on your device (a database and photo files). Other apps cannot access it. Data leaves your device only in the cases described in sections 4 and 5."
+                    },
+                    {
+                        "p": "You pick photos in the Android system photo picker. The App gets access only to the photos you select and keeps its own copies of them. It does not ask for access to your whole gallery or camera."
+                    }
                 ]
             },
-            "retention": {
-                "title": "6. DATA RETENTION PERIOD",
-                "intro": "Data is stored until:",
-                "items": [
-                    "Account deletion by the user",
-                    "App uninstallation",
-                    "Execution of the \"Delete all data\" operation available in the App settings"
+            {
+                "id": "backup",
+                "title": "Backups",
+                "content": [
+                    {
+                        "p": "**Android backup.** If Google backup is turned on in your phone settings, Android may save the App's database and settings (without photos) to your Google account, and also the photos when you move your data to a new phone. This backup is made and stored by Google; you turn it on and off in the system settings. The Developer has no access to it."
+                    },
+                    {
+                        "p": "**Google Drive backup (optional).** This feature is off by default. When you turn it on in the App settings and agree in the Google window, the App regularly saves a ZIP file with all your data, including photos, to the “Finance44” folder on your Google Drive:"
+                    },
+                    {
+                        "list": [
+                            "The App can access only the files it created on your Drive (the “drive.file” permission). It cannot see any other files.",
+                            "Files go straight from your device to your Drive. They don't pass through any server of the Developer, and the Developer has no access to them.",
+                            "Only the number of latest backups you choose stays on Drive – the App deletes older ones.",
+                            "The App does not add its own encryption to the backup files. They are protected by Google's security and your Google account, so we recommend turning on 2-Step Verification.",
+                            "You can disconnect Drive in the App settings at any time – no new backups are made and the App's access is revoked. Files already on Drive stay there until you delete them. You can also remove the access on the [Google account connections](https://myaccount.google.com/connections) page."
+                        ]
+                    },
+                    {
+                        "p": "Sign-in and file storage are handled by Google Play services and Google Drive under the [Google Privacy Policy](https://policies.google.com/privacy)."
+                    }
                 ]
             },
-            "storage": {
-                "title": "7. DATA STORAGE LOCATION",
-                "content": "All data is stored locally on your device in an SQLite database file (finance44.db). The App does not create cloud backups or synchronize data with remote servers. Data is not transmitted to remote servers or shared with third parties unless you decide to export the data yourself."
-            },
-            "rights": {
-                "title": "8. YOUR RIGHTS",
-                "intro": "As a user, you have the right to:",
-                "items": [
-                    "Access your data (through the App interface)",
-                    "Correct data (edit data in the App)",
-                    "Delete data (using the \"Delete all data\" function in settings)",
-                    "Export data (using the \"Export data\" function in settings)"
+            {
+                "id": "export",
+                "title": "Export and import",
+                "content": [
+                    {
+                        "p": "“Export data” saves all your data, including photos, to a ZIP file in a place you choose (e.g. your phone storage or Google Drive). From then on, you are responsible for keeping the file safe – don't share it with anyone who shouldn't know your finances."
+                    },
+                    {
+                        "p": "“Import data” replaces all data in the App with the contents of the chosen file. The file is read only on your device."
+                    }
                 ]
             },
-            "security": {
-                "title": "9. DATA SECURITY",
-                "intro": "We apply appropriate technical measures to protect your data, including:",
-                "items": [
-                    "Storing all data exclusively on your device",
-                    "No automatic data transmission to external servers",
-                    "No user behavior tracking",
-                    "Using secure database access mechanisms"
+            {
+                "id": "sharing",
+                "title": "Who we share data with",
+                "content": [
+                    {
+                        "p": "No one. The Developer does not sell, rent or share data from the App, because it never receives it. The App has no ads, analytics or tracking libraries."
+                    },
+                    {
+                        "p": "Providers whose services you use together with the App process data under their own terms:"
+                    },
+                    {
+                        "list": [
+                            "Google Play – downloading and updating the App,",
+                            "Google (Android backup, Google Play services, Google Drive) – only if you use them,",
+                            "GitHub – hosting of this website and of the issue tracker (see section 9). GitHub may process visitors' IP addresses under its [privacy statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement)."
+                        ]
+                    },
+                    {
+                        "p": "This website uses no cookies and no analytics. It only stores the theme and language you chose in your browser."
+                    }
                 ]
             },
-            "changes": {
-                "title": "10. CHANGES TO THE PRIVACY POLICY",
-                "content": "We reserve the right to make changes to the Privacy Policy. We will inform you of any changes through App updates or notifications in the App."
+            {
+                "id": "retention",
+                "title": "How long the data is kept",
+                "content": [
+                    {
+                        "p": "Data in the App is kept until you delete it. You can do that in several ways:"
+                    },
+                    {
+                        "list": [
+                            "by editing or deleting entries in the App,",
+                            "with “Delete all data” in the settings – it removes all data and photos from the device and disconnects the Google Drive backup,",
+                            "by uninstalling the App – the system then removes its data from the device."
+                        ]
+                    },
+                    {
+                        "note": "Copies outside your device are not deleted together with the App. You delete the files on Google Drive and exported ZIP files yourself, and you manage the Android backup in your Google account settings."
+                    }
+                ]
             },
-            "contact": {
-                "title": "11. CONTACT",
-                "content": "For questions regarding the Privacy Policy, please contact the Finance 44 team."
+            {
+                "id": "rights",
+                "title": "Your rights",
+                "content": [
+                    {
+                        "p": "Because the data is under your control, you can exercise most of your GDPR rights directly in the App:"
+                    },
+                    {
+                        "list": [
+                            "access and correction – in the App,",
+                            "erasure – “Delete all data” in the settings,",
+                            "data portability – export to a ZIP file (database or CSV files),",
+                            "withdrawing consent to the Google Drive backup – “Disconnect Google Drive” in the settings, at any time."
+                        ]
+                    },
+                    {
+                        "p": "For data you send us directly (e.g. in an issue), you can request access, rectification, erasure or restriction of processing, and you can object. You also have the right to lodge a complaint with the Polish data protection authority (Prezes Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa, [uodo.gov.pl](https://uodo.gov.pl)) or with the authority of your country."
+                    }
+                ]
             },
-            "confirmation": "By using the App, you confirm that you have read this Privacy Policy and accept its terms."
-        }
+            {
+                "id": "contact",
+                "title": "Contact and issues",
+                "content": [
+                    {
+                        "p": "Send questions, feedback and bug reports through the [Finance 44 issue tracker on GitHub](contact)."
+                    },
+                    {
+                        "note": "Issues are public. Don't include financial data, screenshots with amounts or export files."
+                    },
+                    {
+                        "p": "We use the content of an issue and your GitHub username only to reply and fix the problem (our legitimate interest, Art. 6(1)(f) GDPR). You can edit your issue at any time or ask us to delete it."
+                    }
+                ]
+            },
+            {
+                "id": "children",
+                "title": "Children",
+                "content": [
+                    {
+                        "p": "The App is not intended for children under 16. Because the data never reaches the Developer, a parent or guardian can review and delete it at any time on the child's device."
+                    }
+                ]
+            },
+            {
+                "id": "security",
+                "title": "Security",
+                "content": [
+                    {
+                        "list": [
+                            "Data is saved in the App's private storage, which other apps cannot access.",
+                            "The App connects to the internet only to upload a backup to your Google Drive, and only over an encrypted connection (HTTPS).",
+                            "The App doesn't know your Google password – access is handled by Google Play services."
+                        ]
+                    },
+                    {
+                        "p": "Your phone's screen lock protects your data best: anyone who unlocks your phone can open the App."
+                    }
+                ]
+            },
+            {
+                "id": "changes",
+                "title": "Changes to this policy",
+                "content": [
+                    {
+                        "p": "When the way the App works changes, we will update this policy and the “Last updated” date at the top of this page. We will announce significant changes, such as a new way of sending data, in the App's update notes on Google Play."
+                    },
+                    {
+                        "p": "The rules for using the App are described in the [Terms of Use](terms)."
+                    }
+                ]
+            }
+        ]
+    },
+    "terms": {
+        "title": "Terms of Use",
+        "subtitle": "The rules for using the free Finance 44 app – short and without small print.",
+        "relatedDescription": "License, what the App is, backups and liability.",
+        "highlights": [
+            {
+                "title": "Free",
+                "text": "The App is free: no ads, no subscriptions and no in-app purchases."
+            },
+            {
+                "title": "A tool, not an advisor",
+                "text": "Finance 44 helps you record expenses and income. It is not a bank and gives no financial advice."
+            },
+            {
+                "title": "Your data, your backups",
+                "text": "Your data exists only on your device, so keep a backup."
+            },
+            {
+                "title": "Polish law",
+                "text": "These terms are governed by Polish law and don't limit your consumer rights."
+            }
+        ],
+        "sections": [
+            {
+                "id": "general",
+                "title": "General",
+                "content": [
+                    {
+                        "p": "These terms (the “Terms”) set out the rules for using the Finance 44 app (the “App”) – a personal budgeting app made and provided by Finance 44 (the “Developer”)."
+                    },
+                    {
+                        "p": "By installing or using the App, you accept the Terms. If you don't agree with them, don't use the App and uninstall it. What happens to your data is described in a separate document – the [Privacy Policy](privacy)."
+                    },
+                    {
+                        "p": "The App is available on Google Play for Android devices. Downloading it from Google Play is also subject to Google's terms."
+                    }
+                ]
+            },
+            {
+                "id": "license",
+                "title": "License",
+                "content": [
+                    {
+                        "p": "The Developer grants you a free, non-exclusive and non-transferable license to use the App on your devices for your own purposes. The license has no time limit as long as you follow the Terms."
+                    },
+                    {
+                        "p": "You may not:"
+                    },
+                    {
+                        "list": [
+                            "distribute modified versions of the App under the Finance 44 name or branding,",
+                            "sell the App or offer it for a fee,",
+                            "use the App unlawfully or in a way that infringes the rights of others,",
+                            "circumvent the App's security or decompile it, unless mandatory law allows it."
+                        ]
+                    },
+                    {
+                        "p": "The rights to the App, its name, logo and design belong to the Developer. The App also includes open source components provided under their own licenses. The data you enter belongs to you."
+                    }
+                ]
+            },
+            {
+                "id": "nature",
+                "title": "What the App is",
+                "content": [
+                    {
+                        "p": "The App is a tool for manually recording and analyzing your own finances: accounts, transactions, categories and recurring payments. In particular:"
+                    },
+                    {
+                        "list": [
+                            "the App is not a bank or a payment institution, does not connect to bank accounts and makes no payments,",
+                            "recurring payments are only entries the App adds on the schedule you set – they are not bank transfers,",
+                            "balances, charts and summaries come only from the data you enter and may differ from your real accounts,",
+                            "the App does not convert currencies at exchange rates – amounts in different currencies are shown separately,",
+                            "information in the App is not financial, investment, tax or legal advice. You make your financial decisions yourself."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "data",
+                "title": "Your data and backups",
+                "content": [
+                    {
+                        "p": "Your data is stored on your device and the Developer has no access to it. This means the Developer cannot recover it if you lose your phone, uninstall the App or delete the data."
+                    },
+                    {
+                        "list": [
+                            "You are responsible for backups. You can use export to a ZIP file, the Android backup or the Google Drive backup.",
+                            "A Google Drive backup is made only when there is an internet connection, free space on Drive and the App has access to your account. You can check the last backup in the App settings.",
+                            "Importing a file replaces all data in the App. Export your current data first if you want to keep it.",
+                            "“Delete all data” cannot be undone."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "third-party",
+                "title": "Third-party services",
+                "content": [
+                    {
+                        "p": "Some features use Google services: Google Play (installation and updates), Google Play services (access to your Google account) and Google Drive (backup). They are provided by Google under the [Google Terms of Service](https://policies.google.com/terms). The Developer is not responsible for their availability, storage limits or changes Google makes to them."
+                    }
+                ]
+            },
+            {
+                "id": "liability",
+                "title": "Liability",
+                "content": [
+                    {
+                        "p": "The Developer works to keep the App reliable and secure, but provides it free of charge, as it is. There is no guarantee that it is free of errors or meets all your expectations."
+                    },
+                    {
+                        "p": "To the extent permitted by law, the Developer is not liable for:"
+                    },
+                    {
+                        "list": [
+                            "financial decisions based on data from the App,",
+                            "loss of data that a backup would have prevented,",
+                            "the results of entering incorrect data,",
+                            "the operation of your device, its operating system and third-party services."
+                        ]
+                    },
+                    {
+                        "note": "These limitations don't apply to damage caused intentionally or by gross negligence, and they don't limit the rights you have as a consumer under mandatory law."
+                    }
+                ]
+            },
+            {
+                "id": "updates",
+                "title": "Updates and development",
+                "content": [
+                    {
+                        "p": "The Developer may release updates that fix bugs and add, change or remove features. You install updates through Google Play."
+                    },
+                    {
+                        "p": "The Developer may stop developing the App. The App doesn't use any server of the Developer, so an installed version can keep working, and you can always export your data. You can stop using the App at any time by uninstalling it."
+                    }
+                ]
+            },
+            {
+                "id": "contact",
+                "title": "Contact and issues",
+                "content": [
+                    {
+                        "p": "Send feedback, questions and bug reports through the [issue tracker on GitHub](contact). We reply as soon as we can."
+                    },
+                    {
+                        "note": "Issues are public. Don't include financial data or export files."
+                    }
+                ]
+            },
+            {
+                "id": "changes",
+                "title": "Changes to the Terms",
+                "content": [
+                    {
+                        "p": "The Developer may change the Terms, e.g. when the App's features or the law change. The new version will be published on this page with a new “Last updated” date, and significant changes will be announced in the App's update notes. If you don't accept the changes, you can stop using the App and uninstall it."
+                    }
+                ]
+            },
+            {
+                "id": "law",
+                "title": "Governing law",
+                "content": [
+                    {
+                        "p": "The Terms are governed by Polish law. If you are a consumer living in another EU country, you keep the protection given to you by the mandatory laws of your country."
+                    },
+                    {
+                        "p": "Disputes are resolved by the courts having jurisdiction under general rules. As a consumer, you can also use out-of-court dispute resolution, such as help from a local consumer ombudsman."
+                    },
+                    {
+                        "p": "If any provision of the Terms turns out to be invalid, the remaining provisions stay in force."
+                    }
+                ]
+            }
+        ]
     },
     "footer": {
-        "copyright": "© {{year}} Finance 44. All rights reserved."
+        "copyright": "© {{year}} Finance 44. All rights reserved.",
+        "contact": "Contact"
     },
     "notfound": {
         "title": "Page Not Found",

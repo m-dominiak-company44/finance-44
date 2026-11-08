@@ -15,6 +15,9 @@ i18n.use(LanguageDetector)
     .init({
         resources,
         fallbackLng: 'en',
+        supportedLngs: ['en', 'pl'],
+        // A browser "pl-PL" becomes "pl" instead of a separate language without texts.
+        load: 'languageOnly',
         compatibilityJSON: 'v4',
         interpolation: {
             escapeValue: false,

@@ -19,8 +19,8 @@ export function ThemeToggle() {
     };
 
     return (
-        <Button variant="outline" size="default" onClick={toggleTheme} className="p-3">
-            {theme === 'light' ? <Moon className="size-6" /> : <Sun className="size-6" />}
+        <Button variant="ghost" size="icon" onClick={toggleTheme} className="rounded-full [&_svg]:size-5">
+            {theme === 'light' ? <Moon /> : <Sun />}
             <span className="sr-only">Toggle theme</span>
         </Button>
     );

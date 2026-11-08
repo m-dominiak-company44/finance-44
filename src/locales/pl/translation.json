@@ -8,7 +8,10 @@
         "features": {
             "security": {
                 "title": "Bezpieczeństwo",
-                "items": ["Dane przechowywane lokalnie", "Ty decydujesz gdzie lądują Twoje dane finansowe"]
+                "items": [
+                    "Dane przechowywane lokalnie",
+                    "Ty decydujesz gdzie lądują Twoje dane finansowe"
+                ]
             },
             "plugins": {
                 "title": "Dostępność na wielu platformach",
@@ -16,7 +19,10 @@
             },
             "openness": {
                 "title": "Otwarte standardy",
-                "items": ["Eksport danych do CSV", "Przejrzyste raportowanie finansów"]
+                "items": [
+                    "Eksport danych do CSV",
+                    "Przejrzyste raportowanie finansów"
+                ]
             },
             "keyFeatures": {
                 "title": "Kluczowe funkcje",
@@ -41,106 +47,423 @@
         "download": "Pobierz",
         "comingSoon": "Wersja na system Windows dostępna wkrótce"
     },
-    "privacy-policy": "Polityka Prywatności",
+    "privacy-policy": "Polityka prywatności",
+    "terms-of-use": "Warunki korzystania",
+    "legal": {
+        "kicker": "Dokumenty",
+        "updated": "Ostatnia aktualizacja:",
+        "summary": "Najważniejsze w skrócie",
+        "toc": "Spis treści",
+        "related": "Zobacz też",
+        "backToTop": "Wróć na górę"
+    },
     "privacy": {
-        "title": "Polityka Prywatności Finance 44",
-        "subtitle": "Twoje dane finansowe, Twoja kontrola",
-        "introduction": {
-            "title": "1. Wprowadzenie",
-            "content": "Finance 44 to aplikacja do zarządzania finansami osobistymi, która szanuje prywatność użytkowników. Niniejsza polityka wyjaśnia jakie dane zbieramy i jak je wykorzystujemy."
-        },
-        "policy": {
-            "title": "POLITYKA PRYWATNOŚCI",
-            "appName": "Finance 44",
-            "lastUpdated": "Ostatnia aktualizacja: {{date}}",
-            "introduction": {
-                "title": "1. WPROWADZENIE",
-                "content": "Witamy w aplikacji Finance 44 (\"Aplikacja\"), narzędziu do zarządzania finansami osobistymi. Polityka prywatności opisuje, w jaki sposób zbieramy, używamy, przechowujemy i chronimy Twoje dane osobowe podczas korzystania z naszej Aplikacji.",
-                "important": "WAŻNE: Wszystkie dane wprowadzane do Aplikacji są przechowywane wyłącznie na Twoim urządzeniu. Aplikacja nie przesyła danych do żadnych zewnętrznych serwerów ani nie udostępnia ich podmiotom trzecim."
+        "title": "Polityka prywatności",
+        "subtitle": "Jak aplikacja Finance 44 obchodzi się z Twoimi danymi. W skrócie: zostają na Twoim urządzeniu, a do chmury trafiają tylko wtedy, gdy sam tego zechcesz.",
+        "relatedDescription": "Jakie dane zapisuje Aplikacja, gdzie je przechowuje i jak je usunąć.",
+        "highlights": [
+            {
+                "title": "Dane na Twoim urządzeniu",
+                "text": "Konta, transakcje i zdjęcia są zapisane w pamięci telefonu. Nie mamy serwera, na który mogłyby trafić."
             },
-            "dataController": {
-                "title": "2. ADMINISTRATOR DANYCH",
-                "content": "Administratorem danych jest Finance 44 z siedzibą w Polsce."
+            {
+                "title": "Bez reklam i śledzenia",
+                "text": "Aplikacja nie zawiera reklam, analityki ani narzędzi śledzących. Nie zakładasz u nas konta."
             },
-            "dataTypes": {
-                "title": "3. RODZAJE ZBIERANYCH DANYCH",
-                "intro": "Nasza Aplikacja zbiera następujące rodzaje danych:",
-                "userEntered": "Dane wprowadzane przez użytkownika:",
-                "items": [
-                    "Informacje o kontach finansowych (nazwa, saldo, waluta)",
-                    "Dane o transakcjach (kwota, kategoria, data, czas, opis)",
-                    "Informacje o kategoriach wydatków i dochodów",
-                    "Dane o płatnościach cyklicznych",
-                    "Etykiety transakcji",
-                    "Zdjęcia związane z transakcjami (jeśli dodane)"
+            {
+                "title": "Chmura tylko na Twoje życzenie",
+                "text": "Kopia na Dysku Google jest wyłączona, dopóki jej nie włączysz, i trafia na Twój własny Dysk."
+            },
+            {
+                "title": "Pełna kontrola",
+                "text": "W każdej chwili wyeksportujesz lub usuniesz wszystkie dane w ustawieniach Aplikacji."
+            }
+        ],
+        "sections": [
+            {
+                "id": "intro",
+                "title": "Czego dotyczy ta polityka",
+                "content": [
+                    {
+                        "p": "Niniejsza polityka prywatności opisuje, jakie dane przetwarza aplikacja Finance 44 („Aplikacja”) – narzędzie do prowadzenia budżetu osobistego – gdzie są przechowywane i jakie masz możliwości. Dotyczy Aplikacji na system Android dostępnej w Google Play oraz tej strony internetowej."
+                    },
+                    {
+                        "p": "Aplikację tworzy i udostępnia Finance 44 („my”, „Twórca”)."
+                    },
+                    {
+                        "note": "**Najważniejsze:** Twórca nie otrzymuje danych, które wprowadzasz do Aplikacji. Nie mamy do nich dostępu, więc nie możemy ich odczytać, przekazać ani sprzedać."
+                    }
                 ]
             },
-            "processingPurposes": {
-                "title": "4. CELE PRZETWARZANIA DANYCH",
-                "intro": "Przetwarzamy Twoje dane w następujących celach:",
-                "items": [
-                    "Umożliwienie korzystania z funkcji zarządzania finansami osobistymi",
-                    "Zapisywanie informacji o Twoich transakcjach i kontach finansowych",
-                    "Kategoryzacja i analiza wydatków i dochodów",
-                    "Zarządzanie płatnościami cyklicznymi",
-                    "Zapewnienie funkcji eksportu danych"
+            {
+                "id": "data",
+                "title": "Jakie dane zapisuje Aplikacja",
+                "content": [
+                    {
+                        "p": "Aplikacja zapisuje wyłącznie informacje, które sam do niej wprowadzasz:"
+                    },
+                    {
+                        "list": [
+                            "profile użytkowników – nazwę, którą podasz (nie musi to być prawdziwe imię; Aplikacja nie prosi o adres e-mail ani numer telefonu),",
+                            "konta: nazwę, saldo, walutę, kolor i ikonę,",
+                            "transakcje: kwotę, datę i godzinę, kategorię, konto, komentarz i etykiety,",
+                            "kategorie wydatków i dochodów oraz płatności cykliczne,",
+                            "zdjęcia dołączone do transakcji (np. paragonów) – tylko te, które sam wybierzesz,",
+                            "ustawienia: motyw, język, preferowaną walutę, pierwszy dzień tygodnia i ustawienia kopii zapasowej."
+                        ]
+                    },
+                    {
+                        "p": "Jeśli włączysz kopię na Dysku Google, Aplikacja zapisuje też adres e-mail wybranego konta Google oraz datę, rozmiar i wynik ostatniej kopii – po to, żeby pokazać Ci jej stan."
+                    },
+                    {
+                        "p": "Aplikacja nie zbiera lokalizacji, kontaktów, identyfikatorów reklamowych, historii korzystania ani informacji o urządzeniu. Nie łączy się z Twoim bankiem."
+                    }
                 ]
             },
-            "legalBasis": {
-                "title": "5. PODSTAWA PRAWNA PRZETWARZANIA",
-                "intro": "Podstawą prawną przetwarzania Twoich danych jest:",
-                "items": [
-                    "Wykonanie umowy (świadczenie usług w ramach Aplikacji)",
-                    "Twoja zgoda (w przypadku opcjonalnych funkcji)",
-                    "Uzasadniony interes administratora (poprawa funkcjonalności Aplikacji)"
+            {
+                "id": "storage",
+                "title": "Gdzie są przechowywane dane",
+                "content": [
+                    {
+                        "p": "Wszystkie dane są zapisane w prywatnej pamięci Aplikacji na Twoim urządzeniu (baza danych i pliki zdjęć). Inne aplikacje nie mają do nich dostępu. Dane opuszczają urządzenie tylko w sytuacjach opisanych w punktach 4 i 5."
+                    },
+                    {
+                        "p": "Zdjęcia wybierasz w systemowym selektorze zdjęć Androida. Aplikacja dostaje dostęp wyłącznie do wskazanych zdjęć i zapisuje ich kopie u siebie. Nie prosi o dostęp do całej galerii ani do aparatu."
+                    }
                 ]
             },
-            "retention": {
-                "title": "6. OKRES PRZECHOWYWANIA DANYCH",
-                "intro": "Dane są przechowywane do momentu:",
-                "items": [
-                    "Usunięcia konta przez użytkownika",
-                    "Usunięcia Aplikacji",
-                    "Wykonania operacji \"Usuń wszystkie dane\" dostępnej w ustawieniach Aplikacji"
+            {
+                "id": "backup",
+                "title": "Kopie zapasowe",
+                "content": [
+                    {
+                        "p": "**Kopia zapasowa Androida.** Jeśli w ustawieniach telefonu masz włączoną kopię zapasową Google, system Android może zapisywać na Twoim koncie Google bazę danych i ustawienia Aplikacji (bez zdjęć), a przy przenoszeniu danych na nowy telefon – także zdjęcia. Tę kopię tworzy i przechowuje Google; włączasz ją i wyłączasz w ustawieniach systemu. Twórca nie ma do niej dostępu."
+                    },
+                    {
+                        "p": "**Kopia na Dysku Google (opcjonalna).** Funkcja jest domyślnie wyłączona. Gdy włączysz ją w ustawieniach Aplikacji i wyrazisz zgodę w oknie Google, Aplikacja będzie regularnie zapisywać plik ZIP ze wszystkimi danymi, łącznie ze zdjęciami, w folderze „Finance44” na Twoim Dysku Google:"
+                    },
+                    {
+                        "list": [
+                            "Aplikacja ma dostęp tylko do plików, które sama utworzyła na Twoim Dysku (uprawnienie „drive.file”). Nie widzi pozostałych plików.",
+                            "Pliki trafiają bezpośrednio z Twojego urządzenia na Twój Dysk. Nie przechodzą przez żaden serwer Twórcy, a Twórca nie ma do nich dostępu.",
+                            "Na Dysku zostaje tylko wybrana przez Ciebie liczba najnowszych kopii – starsze Aplikacja usuwa.",
+                            "Aplikacja nie szyfruje dodatkowo plików kopii. Ich ochrona zależy od zabezpieczeń Google i Twojego konta Google, dlatego warto włączyć na nim weryfikację dwuetapową.",
+                            "W każdej chwili możesz odłączyć Dysk w ustawieniach Aplikacji – kopie przestaną powstawać, a dostęp Aplikacji zostanie cofnięty. Pliki, które już są na Dysku, zostają, dopóki sam ich nie usuniesz. Dostęp możesz też cofnąć na stronie [połączeń z kontem Google](https://myaccount.google.com/connections)."
+                        ]
+                    },
+                    {
+                        "p": "Logowanie i przechowywanie plików obsługują Usługi Google Play i Dysk Google na zasadach [Polityki prywatności Google](https://policies.google.com/privacy)."
+                    }
                 ]
             },
-            "storage": {
-                "title": "7. MIEJSCE PRZECHOWYWANIA DANYCH",
-                "content": "Wszystkie dane są przechowywane lokalnie na Twoim urządzeniu w pliku bazy danych SQLite (finance44.db). Aplikacja nie tworzy kopii zapasowych w chmurze ani nie synchronizuje danych z serwerami zdalnymi. Dane nie są przesyłane na zdalne serwery ani udostępniane osobom trzecim, chyba że samodzielnie zdecydujesz się na eksport danych."
-            },
-            "rights": {
-                "title": "8. TWOJE PRAWA",
-                "intro": "Jako użytkownik masz prawo do:",
-                "items": [
-                    "Dostępu do swoich danych (poprzez interfejs Aplikacji)",
-                    "Poprawiania danych (edycja danych w Aplikacji)",
-                    "Usunięcia danych (funkcja \"Usuń wszystkie dane\" w ustawieniach)",
-                    "Eksportu danych (funkcja \"Eksportuj dane\" w ustawieniach)"
+            {
+                "id": "export",
+                "title": "Eksport i import",
+                "content": [
+                    {
+                        "p": "„Eksport danych” zapisuje wszystkie dane, łącznie ze zdjęciami, w pliku ZIP w miejscu, które wskażesz (np. w pamięci telefonu albo na Dysku Google). Od tej chwili za bezpieczeństwo pliku odpowiadasz Ty – nie udostępniaj go osobom, które nie powinny znać Twoich finansów."
+                    },
+                    {
+                        "p": "„Import danych” zastępuje wszystkie dane w Aplikacji zawartością wskazanego pliku. Plik jest odczytywany wyłącznie na Twoim urządzeniu."
+                    }
                 ]
             },
-            "security": {
-                "title": "9. BEZPIECZEŃSTWO DANYCH",
-                "intro": "Stosujemy odpowiednie środki techniczne, aby chronić Twoje dane, w tym:",
-                "items": [
-                    "Przechowywanie wszystkich danych wyłącznie lokalnie na Twoim urządzeniu",
-                    "Brak automatycznego przesyłania danych do zewnętrznych serwerów",
-                    "Brak jakiegokolwiek śledzenia zachowań użytkownika",
-                    "Korzystanie z bezpiecznych mechanizmów dostępu do bazy danych"
+            {
+                "id": "sharing",
+                "title": "Komu przekazujemy dane",
+                "content": [
+                    {
+                        "p": "Nikomu. Twórca nie sprzedaje, nie wynajmuje i nie przekazuje danych z Aplikacji, bo ich nie otrzymuje. Aplikacja nie zawiera reklam, narzędzi analitycznych ani bibliotek śledzących."
+                    },
+                    {
+                        "p": "Usługodawcy, z których korzystasz w związku z Aplikacją, przetwarzają dane na własnych zasadach:"
+                    },
+                    {
+                        "list": [
+                            "Google Play – pobieranie i aktualizacje Aplikacji,",
+                            "Google (kopia zapasowa Androida, Usługi Google Play, Dysk Google) – tylko jeśli z nich korzystasz,",
+                            "GitHub – hosting tej strony i zgłoszeń (zob. punkt 9). GitHub może przetwarzać adresy IP odwiedzających zgodnie ze swoim [oświadczeniem o prywatności](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement)."
+                        ]
+                    },
+                    {
+                        "p": "Ta strona nie używa plików cookie ani analityki. W pamięci Twojej przeglądarki zapisuje jedynie wybrany motyw i język."
+                    }
                 ]
             },
-            "changes": {
-                "title": "10. ZMIANY W POLITYCE PRYWATNOŚCI",
-                "content": "Zastrzegamy sobie prawo do wprowadzania zmian w Polityce Prywatności. O wszelkich zmianach będziemy informować poprzez aktualizację Aplikacji lub powiadomienie w Aplikacji."
+            {
+                "id": "retention",
+                "title": "Jak długo dane są przechowywane",
+                "content": [
+                    {
+                        "p": "Dane w Aplikacji są przechowywane, dopóki ich nie usuniesz. Możesz to zrobić na kilka sposobów:"
+                    },
+                    {
+                        "list": [
+                            "edytując lub usuwając wpisy w Aplikacji,",
+                            "funkcją „Usuń wszystkie dane” w ustawieniach – usuwa wszystkie dane i zdjęcia z urządzenia oraz odłącza kopię na Dysku Google,",
+                            "odinstalowując Aplikację – system usuwa wtedy jej dane z urządzenia."
+                        ]
+                    },
+                    {
+                        "note": "Kopie poza urządzeniem nie znikają razem z Aplikacją. Pliki na Dysku Google i wyeksportowane pliki ZIP usuwasz samodzielnie, a kopią zapasową Androida zarządzasz w ustawieniach konta Google."
+                    }
+                ]
             },
-            "contact": {
-                "title": "11. KONTAKT",
-                "content": "W przypadku pytań dotyczących Polityki Prywatności, prosimy o kontakt z zespołem Finance 44."
+            {
+                "id": "rights",
+                "title": "Twoje prawa",
+                "content": [
+                    {
+                        "p": "Ponieważ dane są pod Twoją kontrolą, prawa wynikające z RODO zrealizujesz w większości bezpośrednio w Aplikacji:"
+                    },
+                    {
+                        "list": [
+                            "dostęp do danych i ich poprawianie – w Aplikacji,",
+                            "usunięcie danych – „Usuń wszystkie dane” w ustawieniach,",
+                            "przeniesienie danych – eksport do pliku ZIP (baza danych albo pliki CSV),",
+                            "wycofanie zgody na kopię na Dysku Google – „Odłącz Dysk Google” w ustawieniach, w dowolnym momencie."
+                        ]
+                    },
+                    {
+                        "p": "Co do danych, które przekazujesz nam bezpośrednio (np. w zgłoszeniu), możesz żądać dostępu do nich, ich sprostowania, usunięcia lub ograniczenia przetwarzania oraz wnieść sprzeciw. Masz też prawo złożyć skargę do Prezesa Urzędu Ochrony Danych Osobowych (ul. Stawki 2, 00-193 Warszawa, [uodo.gov.pl](https://uodo.gov.pl))."
+                    }
+                ]
             },
-            "confirmation": "Korzystając z Aplikacji, potwierdzasz, że zapoznałeś się z niniejszą Polityką Prywatności i akceptujesz jej warunki."
-        }
+            {
+                "id": "contact",
+                "title": "Kontakt i zgłoszenia",
+                "content": [
+                    {
+                        "p": "Pytania, uwagi i błędy zgłaszaj przez [zgłoszenia w repozytorium Finance 44 na GitHubie](contact)."
+                    },
+                    {
+                        "note": "Zgłoszenia są publiczne. Nie umieszczaj w nich danych finansowych, zrzutów ekranu z kwotami ani plików eksportu."
+                    },
+                    {
+                        "p": "Treść zgłoszenia i nazwę użytkownika GitHub wykorzystujemy tylko po to, żeby odpowiedzieć i naprawić błąd (nasz prawnie uzasadniony interes, art. 6 ust. 1 lit. f RODO). Swoje zgłoszenie możesz w każdej chwili edytować albo poprosić nas o jego usunięcie."
+                    }
+                ]
+            },
+            {
+                "id": "children",
+                "title": "Dzieci",
+                "content": [
+                    {
+                        "p": "Aplikacja nie jest przeznaczona dla dzieci poniżej 16 lat. Ponieważ dane nie trafiają do Twórcy, rodzic lub opiekun może je w każdej chwili przejrzeć i usunąć na urządzeniu dziecka."
+                    }
+                ]
+            },
+            {
+                "id": "security",
+                "title": "Bezpieczeństwo",
+                "content": [
+                    {
+                        "list": [
+                            "Dane są zapisane w prywatnej pamięci Aplikacji, niedostępnej dla innych aplikacji.",
+                            "Aplikacja łączy się z internetem wyłącznie po to, by wysłać kopię na Twój Dysk Google, i tylko szyfrowanym połączeniem (HTTPS).",
+                            "Aplikacja nie zna hasła do Twojego konta Google – dostępem zarządzają Usługi Google Play."
+                        ]
+                    },
+                    {
+                        "p": "Najlepiej chroni Twoje dane blokada ekranu telefonu: każdy, kto odblokuje telefon, może otworzyć Aplikację."
+                    }
+                ]
+            },
+            {
+                "id": "changes",
+                "title": "Zmiany polityki",
+                "content": [
+                    {
+                        "p": "Gdy zmieni się sposób działania Aplikacji, zaktualizujemy tę politykę i datę „Ostatnia aktualizacja” na górze strony. O istotnych zmianach, np. nowym sposobie przesyłania danych, poinformujemy w opisie aktualizacji Aplikacji w Google Play."
+                    },
+                    {
+                        "p": "Zasady korzystania z Aplikacji opisują [Warunki korzystania](terms)."
+                    }
+                ]
+            }
+        ]
+    },
+    "terms": {
+        "title": "Warunki korzystania",
+        "subtitle": "Zasady korzystania z bezpłatnej aplikacji Finance 44 – krótko i bez drobnego druku.",
+        "relatedDescription": "Licencja, charakter Aplikacji, kopie zapasowe i odpowiedzialność.",
+        "highlights": [
+            {
+                "title": "Bezpłatnie",
+                "text": "Aplikacja jest darmowa: bez reklam, subskrypcji i płatności w aplikacji."
+            },
+            {
+                "title": "Narzędzie, nie doradca",
+                "text": "Finance 44 pomaga zapisywać wydatki i dochody. Nie jest bankiem i nie udziela porad finansowych."
+            },
+            {
+                "title": "Twoje dane, Twoje kopie",
+                "text": "Dane są tylko na Twoim urządzeniu, więc zadbaj o kopię zapasową."
+            },
+            {
+                "title": "Prawo polskie",
+                "text": "Warunki podlegają prawu polskiemu i nie ograniczają Twoich praw konsumenta."
+            }
+        ],
+        "sections": [
+            {
+                "id": "general",
+                "title": "Postanowienia ogólne",
+                "content": [
+                    {
+                        "p": "Niniejsze warunki („Warunki”) określają zasady korzystania z aplikacji Finance 44 („Aplikacja”) – aplikacji do prowadzenia budżetu osobistego, którą tworzy i udostępnia Finance 44 („Twórca”)."
+                    },
+                    {
+                        "p": "Instalując Aplikację lub z niej korzystając, akceptujesz Warunki. Jeśli się z nimi nie zgadzasz, nie korzystaj z Aplikacji i odinstaluj ją. To, co dzieje się z Twoimi danymi, opisuje osobny dokument – [Polityka prywatności](privacy)."
+                    },
+                    {
+                        "p": "Aplikacja jest dostępna w Google Play na urządzenia z systemem Android. Pobieranie jej z Google Play podlega także warunkom Google."
+                    }
+                ]
+            },
+            {
+                "id": "license",
+                "title": "Licencja",
+                "content": [
+                    {
+                        "p": "Twórca udziela Ci bezpłatnej, niewyłącznej i nieprzenoszalnej licencji na korzystanie z Aplikacji na Twoich urządzeniach, na własne potrzeby. Licencja obowiązuje bezterminowo, dopóki przestrzegasz Warunków."
+                    },
+                    {
+                        "p": "Nie wolno:"
+                    },
+                    {
+                        "list": [
+                            "rozpowszechniać zmienionych wersji Aplikacji pod nazwą lub oznaczeniami Finance 44,",
+                            "sprzedawać Aplikacji ani udostępniać jej odpłatnie,",
+                            "używać Aplikacji niezgodnie z prawem lub z naruszeniem praw innych osób,",
+                            "obchodzić zabezpieczeń Aplikacji ani jej dekompilować, chyba że pozwalają na to bezwzględnie obowiązujące przepisy."
+                        ]
+                    },
+                    {
+                        "p": "Prawa do Aplikacji, jej nazwy, logo i wyglądu należą do Twórcy. Aplikacja zawiera też komponenty open source, udostępniane na ich własnych licencjach. Dane, które wprowadzasz, należą do Ciebie."
+                    }
+                ]
+            },
+            {
+                "id": "nature",
+                "title": "Czym jest Aplikacja",
+                "content": [
+                    {
+                        "p": "Aplikacja to narzędzie do ręcznego zapisywania i analizowania własnych finansów: kont, transakcji, kategorii i płatności cyklicznych. W szczególności:"
+                    },
+                    {
+                        "list": [
+                            "Aplikacja nie jest bankiem ani instytucją płatniczą, nie łączy się z rachunkami bankowymi i nie wykonuje żadnych płatności,",
+                            "płatności cykliczne to wyłącznie wpisy dodawane w Aplikacji według ustalonego przez Ciebie harmonogramu – nie są przelewami,",
+                            "salda, wykresy i podsumowania wynikają tylko z danych, które wprowadzisz, i nie muszą odpowiadać stanowi Twoich rzeczywistych rachunków,",
+                            "Aplikacja nie przelicza walut według kursów – kwoty w różnych walutach pokazuje osobno,",
+                            "informacje w Aplikacji nie są poradą finansową, inwestycyjną, podatkową ani prawną. Decyzje finansowe podejmujesz samodzielnie."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "data",
+                "title": "Twoje dane i kopie zapasowe",
+                "content": [
+                    {
+                        "p": "Dane są przechowywane na Twoim urządzeniu, a Twórca nie ma do nich dostępu. Dlatego Twórca nie odzyska ich, jeśli zgubisz telefon, odinstalujesz Aplikację albo usuniesz dane."
+                    },
+                    {
+                        "list": [
+                            "Za kopię zapasową odpowiadasz Ty. Możesz skorzystać z eksportu do pliku ZIP, kopii zapasowej Androida lub kopii na Dysku Google.",
+                            "Kopia na Dysku Google powstaje tylko wtedy, gdy jest połączenie z internetem, na Dysku jest wolne miejsce, a Aplikacja ma dostęp do konta. Stan ostatniej kopii sprawdzisz w ustawieniach Aplikacji.",
+                            "Import pliku zastępuje wszystkie dane w Aplikacji. Jeśli chcesz zachować obecne dane, najpierw je wyeksportuj.",
+                            "„Usuń wszystkie dane” jest nieodwracalne."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "third-party",
+                "title": "Usługi zewnętrzne",
+                "content": [
+                    {
+                        "p": "Niektóre funkcje korzystają z usług Google: Google Play (instalacja i aktualizacje), Usług Google Play (dostęp do konta Google) i Dysku Google (kopia zapasowa). Świadczy je Google na podstawie [Warunków korzystania z usług Google](https://policies.google.com/terms). Twórca nie odpowiada za ich dostępność, limity miejsca ani za zmiany, które wprowadzi w nich Google."
+                    }
+                ]
+            },
+            {
+                "id": "liability",
+                "title": "Odpowiedzialność",
+                "content": [
+                    {
+                        "p": "Twórca dba o to, by Aplikacja działała poprawnie i bezpiecznie, ale udostępnia ją bezpłatnie, w takim stanie, w jakim jest. Nie gwarantuje, że będzie wolna od błędów ani że spełni wszystkie Twoje oczekiwania."
+                    },
+                    {
+                        "p": "W zakresie dozwolonym przez prawo Twórca nie odpowiada za:"
+                    },
+                    {
+                        "list": [
+                            "decyzje finansowe podjęte na podstawie danych z Aplikacji,",
+                            "utratę danych, której można było uniknąć dzięki kopii zapasowej,",
+                            "skutki wprowadzenia błędnych danych,",
+                            "działanie urządzenia, systemu operacyjnego i usług zewnętrznych."
+                        ]
+                    },
+                    {
+                        "note": "Te ograniczenia nie dotyczą szkód wyrządzonych umyślnie ani z rażącego niedbalstwa i nie ograniczają praw, które przysługują Ci jako konsumentowi na podstawie bezwzględnie obowiązujących przepisów."
+                    }
+                ]
+            },
+            {
+                "id": "updates",
+                "title": "Aktualizacje i rozwój",
+                "content": [
+                    {
+                        "p": "Twórca może wydawać aktualizacje, które naprawiają błędy oraz dodają, zmieniają lub usuwają funkcje. Aktualizacje instalujesz przez Google Play."
+                    },
+                    {
+                        "p": "Twórca może zakończyć rozwój Aplikacji. Aplikacja nie korzysta z serwera Twórcy, więc zainstalowana wersja może dalej działać, a dane zawsze możesz wyeksportować. Ty możesz przestać korzystać z Aplikacji w dowolnym momencie, odinstalowując ją."
+                    }
+                ]
+            },
+            {
+                "id": "contact",
+                "title": "Kontakt i zgłoszenia",
+                "content": [
+                    {
+                        "p": "Uwagi, pytania i błędy zgłaszaj przez [zgłoszenia na GitHubie](contact). Odpowiadamy najszybciej, jak to możliwe."
+                    },
+                    {
+                        "note": "Zgłoszenia są publiczne. Nie umieszczaj w nich danych finansowych ani plików eksportu."
+                    }
+                ]
+            },
+            {
+                "id": "changes",
+                "title": "Zmiany Warunków",
+                "content": [
+                    {
+                        "p": "Twórca może zmienić Warunki, np. gdy zmienią się funkcje Aplikacji albo przepisy. Nowa wersja zostanie opublikowana na tej stronie z nową datą „Ostatnia aktualizacja”, a o istotnych zmianach poinformujemy w opisie aktualizacji Aplikacji. Jeśli nie akceptujesz zmian, możesz przestać korzystać z Aplikacji i ją odinstalować."
+                    }
+                ]
+            },
+            {
+                "id": "law",
+                "title": "Prawo właściwe",
+                "content": [
+                    {
+                        "p": "Warunki podlegają prawu polskiemu. Jeśli jesteś konsumentem i mieszkasz w innym kraju Unii Europejskiej, zachowujesz ochronę, jaką dają Ci bezwzględnie obowiązujące przepisy Twojego kraju."
+                    },
+                    {
+                        "p": "Spory rozstrzygają sądy właściwe według przepisów ogólnych. Jako konsument możesz też skorzystać z pozasądowych sposobów rozwiązywania sporów, np. pomocy miejskiego lub powiatowego rzecznika konsumentów."
+                    },
+                    {
+                        "p": "Jeśli któreś z postanowień Warunków okaże się nieważne, pozostałe nadal obowiązują."
+                    }
+                ]
+            }
+        ]
     },
     "footer": {
-        "copyright": "© {{year}} Finance 44. Wszelkie prawa zastrzeżone."
+        "copyright": "© {{year}} Finance 44. Wszelkie prawa zastrzeżone.",
+        "contact": "Kontakt"
     },
     "notfound": {
         "title": "Strona nie znaleziona",

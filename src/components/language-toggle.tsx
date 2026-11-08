@@ -4,19 +4,20 @@ import { useEffect } from 'react';
 
 export function LanguageToggle() {
     const { i18n } = useTranslation();
+    // "pl" also for a detected "pl-PL" – i18n.language keeps the browser's full tag.
+    const language = i18n.resolvedLanguage ?? i18n.language;
 
     useEffect(() => {
-        document.documentElement.lang = i18n.language;
-    }, [i18n.language]);
+        document.documentElement.lang = language;
+    }, [language]);
 
     const toggleLanguage = () => {
-        const newLang = i18n.language === 'en' ? 'pl' : 'en';
-        i18n.changeLanguage(newLang);
+        i18n.changeLanguage(language === 'en' ? 'pl' : 'en');
     };
 
     return (
-        <Button variant="outline" size="default" onClick={toggleLanguage} className="px-6 text-lg">
-            {i18n.language.toUpperCase()}
+        <Button variant="ghost" size="sm" onClick={toggleLanguage} className="rounded-full px-3 font-semibold">
+            {language.toUpperCase()}
         </Button>
     );
 }
