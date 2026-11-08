@@ -37,7 +37,7 @@ function App() {
             <header className="sticky top-0 z-40 border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
                 <div className="mx-auto flex w-full max-w-6xl flex-wrap items-center justify-between gap-x-4 gap-y-2 px-4 py-3">
                     <Link to="" className="flex items-center gap-2.5 font-semibold tracking-tight">
-                        <img src={`${import.meta.env.BASE_URL}favicon.png`} alt="" className="size-8 rounded-lg" />
+                        <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" className="size-8" />
                         Finance 44
                     </Link>
 
