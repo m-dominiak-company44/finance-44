@@ -1,0 +1,16 @@
+name: ❓ Pytanie / Question
+description: Nie wiesz, jak coś zrobić? / Not sure how to do something?
+title: 'Pytanie: '
+labels: [question]
+body:
+    - type: textarea
+      id: question
+      attributes:
+          label: Twoje pytanie / Your question
+      validations:
+          required: true
+    - type: input
+      id: version
+      attributes:
+          label: Wersja aplikacji i telefonu / App and phone version
+          description: Uzupełnia się samo przy zgłoszeniu z aplikacji. / Filled in automatically when reporting from the app.

@@ -1,0 +1,20 @@
+name: 💡 Pomysł / Feature request
+description: Czego brakuje Ci w aplikacji? / What are you missing in the app?
+title: 'Pomysł: '
+labels: [enhancement]
+body:
+    - type: textarea
+      id: missing
+      attributes:
+          label: Czego brakuje? / What is missing?
+      validations:
+          required: true
+    - type: textarea
+      id: use
+      attributes:
+          label: Do czego by się przydało? / What would you use it for?
+    - type: input
+      id: version
+      attributes:
+          label: Wersja aplikacji i telefonu / App and phone version
+          description: Uzupełnia się samo przy zgłoszeniu z aplikacji. / Filled in automatically when reporting from the app.
